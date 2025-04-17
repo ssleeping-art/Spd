@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #eff0f2;
+    color: #333;
+  }
+  
+  .courses-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  
+  .course-card {
+    background: rgba(53, 142, 60, 0.235);
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    background-color: rgba(199, 237, 207, 0.5); 
+  }
+
+  .course-card ul {
+    text-align: justify;
+    padding-left: 0px;
+    margin-top: 0px;
+  
+  }
+  
+  .course-card li {
+    text-align: justify;
+    margin-bottom: 0px;
+  }
+  
+  
+
+
+  
+  /* Add this to style the course images */
+.course-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
